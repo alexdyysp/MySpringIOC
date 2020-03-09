@@ -1,5 +1,7 @@
 # Spring IOC简易实现与理解
 
+代码地址：https://github.com/dyywinner/MySpringIOC
+
 - IOC是一种程序设计思想，是反射的良好工业应用，带IOC的开发框架有以下几点好处：
 
     1. 减少重复代码，更多关心程序核心设计
@@ -119,6 +121,7 @@ OOP的设计思路有诸多缺陷，比如new对象的耦合性，赋值的各�
       }
 
   
+
 
 
 
@@ -351,3 +354,5 @@ DEPT被赋予给EMP并且是单例的，解决了依赖问题。
 1. 用*.ini文件读取配置比较低效，仅仅是实惠简单方便少许行数配置的操作，配置一复杂，还是用xml技术比较好。
 
 2. 用配置[di]解决单例依赖的方案，可以用设计一个earlyExposeSingletonPool解决依赖问题的方案替代。
+
+代码地址：https://github.com/dyywinner/MySpringIOC
